@@ -5,7 +5,7 @@
                 <NavbarToggler target="#sidebar" icon="bi:list" padding="2" />
             </b-div>
             <NavbarBrand to="/" padding="0" margin="0 e-2 s-md-3 s-xl-0">
-                <img src="~/assets/img/logo3.svg" alt="use-bootstrap" height="30">
+                <img src="~/public/img/rap-img.png" alt="use-bootstrap" height="30">
             </NavbarBrand>
             <b-div flex>
                 <NavbarToggler icon="bi:three-dots" flex display="lg-none" order="3" padding="2" target="#navbar" />
@@ -13,7 +13,7 @@
             <Offcanvas id="navbar" type="lg" placement="end" flex-grow="1">
                 <OffcanvasHeader padding="x-4 b-0">
                     <OffcanvasTitle>
-                        Bootstrap
+                            RAPERLIST
                     </OffcanvasTitle>
                     <CloseButton dismiss="offcanvas" />
                 </OffcanvasHeader>

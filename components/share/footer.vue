@@ -24,8 +24,8 @@
               aria-label="use-bootstrap"
             >
               <img
-                src="~/assets/img/logo1.svg"
-                alt="use-bootstrap"
+                src=""
+                alt="US RAPERLIST"
                 height="30"
               >
             </b-a>
@@ -34,10 +34,10 @@
               small
             >
               <b-li margin="b-2">
-                Designed and built with all the love in the world by the Simplise Inc. team with the help of our contributors.
+               if you want to ask something me please let me know 
               </b-li>
               <b-li margin="b-2">
-                Code licensed MIT docs CC BY 3.0.
+                aaaaaaaaaa
               </b-li>
             </b-ul>
           </Col>
@@ -57,7 +57,7 @@
             col="6 lg-2"
             margin="b-3"
           >
-            <b-h level="5">Guides</b-h>
+            <b-h level="5">SNS</b-h>
             <b-ul unstyled>
               <b-li margin="b-2">
                 <b-a text-color="body-secondary" link-underline="0 100-hover dark" href="/">Getting started</b-a>
@@ -68,7 +68,7 @@
             col="6 lg-2"
             margin="b-3"
           >
-            <b-h level="5">Projects</b-h>
+            <b-h level="5">NAME</b-h>
             <b-ul unstyled>
               <b-li margin="b-2">
                 <b-a text-color="body-secondary" link-underline="0 100-hover dark" href="https://usebootstrap.org/">use-bootstrap</b-a>
@@ -79,7 +79,7 @@
             col="6 lg-2"
             margin="b-3"
           >
-            <b-h level="5">Community</b-h>
+            <b-h level="5">Q&A</b-h>
           </Col>
         </Row>
       </Container>
