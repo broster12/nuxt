@@ -13,7 +13,11 @@ definePageMeta({
         :type-speed="60" :loop="true" :back-speed="25" :back-delay="1500" />
     </b-h>
   </Background>
-  <h2>First step</h2>
-  <h2>Second step</h2>
-
+  <h1>NY</h1>
+  <h2>juice</h2>
+   <ul class="list-disc pl-5">
+    <li>Install dependencies</li>
+    <li>Setup the environment</li>
+    <li>Start coding</li>
+  </ul>
 </template>

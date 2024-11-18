@@ -38,8 +38,9 @@ function updateLink() {
 
 <style scoped>
 img {
-  width: 100%;
-  height: auto;
+  width: 140%;
+  height: 200%;
+  max-width: 150%
 }
 
 .juice-img {

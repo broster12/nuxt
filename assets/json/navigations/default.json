@@ -1,24 +1,32 @@
 [
     {
-        "name": "Getting started",
+        "name": "East",
         "icon": "bi:book-half",
         "color": "indigo",
         "children": [
             {
-                "name": "Introduction",
+                "name": "NY",
                 "path": "/docs"
             },
             {
-                "name": "Localization",
+                "name": "FD",
                 "path": "/lang-[lang]/localization"
             }
         ]
     },
     {
-        "name": "About Nuxt3",
+        "name": "West",
         "icon": "simple-icons:nuxtdotjs",
         "color": "indigo",
         "children": [
+            {
+                "name": "LA",
+                "path": "/do"
+            },
+            {
+                "name": "SF",
+                "path": "/lang-[lang]/localization"
+            }
         ]
     }
 ]
