@@ -1,31 +1,234 @@
 [
     {
-        "name": "East",
+        "name": "NORTH EAST",
         "icon": "bi:book-half",
         "color": "indigo",
         "children": [
             {
-                "name": "NY",
+                "name": "ペンシルベニア州",
                 "path": "/docs"
             },
             {
-                "name": "FD",
+                "name": "デラウェア州",
                 "path": "/lang-[lang]/localization"
+            },
+            {
+                "name": "メリーゴーランド州",
+                "path": "/docs"
+            },
+            {
+                "name": "ニュージャージー州",
+                "path": "/docs"
+            },
+            {
+                "name": "ニューヨーク州",
+                "path": "/docs"
+            },
+            {
+                "name": "コネカット州",
+                "path": "/docs"
+            },
+            {
+                "name": "ロードアイランド州",
+                "path": "/docs"
+            },
+
+            {
+                "name": "マサチューセッツ州",
+                "path": "/docs"
+            },
+            {
+                "name": "バーモンド州",
+                "path": "/docs"
+            },
+            {
+                "name": "ニューハンプシャー州",
+                "path": "/docs"
+            },
+            {
+                "name": "メイン州",
+                "path": "/docs"
             }
         ]
     },
     {
-        "name": "West",
+        "name": "SOUTH EAST",
+        "icon": "bi:book-half",
+        "color": "indigo",
+        "children": [
+            {
+                "name": "アーカンソー州",
+                "path": "/docs"
+            },
+            {
+                "name": "ルイジアナ州",
+                "path": "/lang-[lang]/localization"
+            },
+            {
+                "name": "ミシシッピ州",
+                "path": "/docs"
+            },
+            {
+                "name": "ケンタッキー州",
+                "path": "/docs"
+            },
+            {
+                "name": "テネシー州",
+                "path": "/docs"
+            },
+            {
+                "name": "アラバマ州",
+                "path": "/docs"
+            },
+            {
+                "name": "ジョージア州",
+                "path": "/docs"
+            },
+            {
+                "name": "フロリダ州",
+                "path": "/docs"
+            },
+            {
+                "name": "サウスカロライナ州",
+                "path": "/docs"
+            },
+            {
+                "name": "ノースカロライナ州",
+                "path": "/docs"
+            },
+            {
+                "name": "ウェストバージニア州",
+                "path": "/docs"
+            },
+            {
+                "name": "バージニア州",
+                "path": "/docs"
+            }
+        ]
+    },
+    {
+        "name": "SOUTH WEST",
         "icon": "simple-icons:nuxtdotjs",
         "color": "indigo",
         "children": [
             {
-                "name": "LA",
+                "name": "アリゾナ州",
                 "path": "/do"
             },
             {
-                "name": "SF",
+                "name": "ニューメキシコ州",
                 "path": "/lang-[lang]/localization"
+            },
+            {
+                "name": "テキサス州",
+                "path": "/do"
+            },
+            {
+                "name": "オクラホマ州",
+                "path": "/do"
+            }
+        ]
+    },
+    {
+        "name": "MID WEST",
+        "icon": "simple-icons:nuxtdotjs",
+        "color": "indigo",
+        "children": [
+            {
+                "name": "ノースダコタ州",
+                "path": "/do"
+            },
+            {
+                "name": "サウスダコタ州",
+                "path": "/lang-[lang]/localization"
+            },
+            {
+                "name": "ミネソタ州",
+                "path": "/do"
+            },
+            {
+                "name": "アイオワ州",
+                "path": "/do"
+            },
+            {
+                "name": "ミズーリ州",
+                "path": "/do"
+            },
+            {
+                "name": "ネブラスカ州",
+                "path": "/do"
+            },
+            {
+                "name": "カンザス州",
+                "path": "/do"
+            },
+            {
+                "name": "ウィスコンシン州",
+                "path": "/do"
+            },
+            {
+                "name": "ミシガン州",
+                "path": "/do"
+            },
+            {
+                "name": "イリノイ州",
+                "path": "/do"
+            },
+            {
+                "name": "インディアナ州",
+                "path": "/do"
+            },
+            {
+                "name": "オハイオ州",
+                "path": "/do"
+            }
+
+        ]
+    },
+    {
+        "name": "WEST",
+        "icon": "simple-icons:nuxtdotjs",
+        "color": "indigo",
+        "children": [
+            {
+                "name": "ワシントン州",
+                "path": "/do"
+            },
+            {
+                "name": "オレゴン州",
+                "path": "/do"
+            },
+            {
+                "name": "カリフォルニア州",
+                "path": "/do"
+            },
+            {
+                "name": "ネバダ州",
+                "path": "/do"
+            },
+            {
+                "name": "アイダホ州",
+                "path": "/do"
+            },
+            {
+                "name": "モンタナ州",
+                "path": "/do"
+            },
+            {
+                "name": "ワイオミング州",
+                "path": "/do"
+            },
+            {
+                "name": "コロラド州",
+                "path": "/do"
+            },
+            {
+                "name": "ユタ州",
+                "path": "/do"
+            },
+            {
+                "name": "アラスカ州",
+                "path": "/do"
             }
         ]
     }
