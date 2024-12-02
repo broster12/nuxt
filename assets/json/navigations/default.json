@@ -6,7 +6,7 @@
         "children": [
             {
                 "name": "ペンシルベニア州",
-                "path": "/docs"
+                "path": "/"
             },
             {
                 "name": "デラウェア州",
@@ -14,19 +14,19 @@
             },
             {
                 "name": "メリーゴーランド州",
-                "path": "/docs"
+                "path": "/"
             },
             {
                 "name": "ニュージャージー州",
-                "path": "/docs"
+                "path": "/"
             },
             {
                 "name": "ニューヨーク州",
-                "path": "/docs"
+                "path": "/"
             },
             {
                 "name": "コネカット州",
-                "path": "/docs"
+                "path": "/"
             },
             {
                 "name": "ロードアイランド州",
@@ -35,19 +35,19 @@
 
             {
                 "name": "マサチューセッツ州",
-                "path": "/docs"
+                "path": "/"
             },
             {
                 "name": "バーモンド州",
-                "path": "/docs"
+                "path": "/"
             },
             {
                 "name": "ニューハンプシャー州",
-                "path": "/docs"
+                "path": "/"
             },
             {
                 "name": "メイン州",
-                "path": "/docs"
+                "path": "/"
             }
         ]
     },
@@ -58,27 +58,27 @@
         "children": [
             {
                 "name": "アーカンソー州",
-                "path": "/docs"
+                "path": "/"
             },
             {
                 "name": "ルイジアナ州",
-                "path": "/lang-[lang]/localization"
+                "path": "/"
             },
             {
                 "name": "ミシシッピ州",
-                "path": "/docs"
+                "path": "/"
             },
             {
                 "name": "ケンタッキー州",
-                "path": "/docs"
+                "path": "/"
             },
             {
                 "name": "テネシー州",
-                "path": "/docs"
+                "path": "/"
             },
             {
                 "name": "アラバマ州",
-                "path": "/docs"
+                "path": "/"
             },
             {
                 "name": "ジョージア州",

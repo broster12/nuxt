@@ -1,74 +1,145 @@
 <template>
-  <div class="container">
+  <div>
     <h1 class="text-center">US Raper Map</h1>
-    <img src="/usmap.jpg" alt="US Map" class="img-fluid" />
-    <div class="row">
-      <div class="col-md-8">
-        <img src="/juice.jpg" alt="Juice" class="juice-img juice-img1" />
-        <img src="/juice.jpg" alt="Juice" class="juice-img juice-img2" />
-        <img src="/juice.jpg" alt="Juice" class="juice-img juice-img3" />
-      </div>
-      <div class="col-md-4">
-      </div>
-      <div class="col-md-4">
-        <input type="range" min="0" max="data.length - 1" @input="updateLink" />
-        <span>Age </span>
-        <div>
-          <a :href="currentLink" target="_blank" class="btn btn-primary">詳細リンク</a>
+    <div class="container">
+      <img src="/usmap.jpg" alt="US Map" class="img-fluid" />
+      <div class="row">
+        <div class="col-md-8">
+          <!-- 現在表示されている画像だけを表示 -->
+          <div v-for="(item, index) in displayedImages" :key="index">
+            <img :src="item.image" alt="Juice" class="juice-img1" />
+            <img :src="item.image" alt="Juice" class="juice-img2" />
+            <img :src="item.image" alt="Juice" class="juice-img3" />
+          </div>
         </div>
+        <div class="col-md-4">
+        </div>
+      </div>
+    </div>
+    <div class="button-container">
+      <!-- 画像を進むボタンと戻るボタン -->
+      <button @click="goBackImage" class="btn btn-secondary" :disabled="currentIndex === 0">戻る</button>
+      <button @click="addImage" class="btn btn-primary" :disabled="currentIndex >= data.length">次の画像を追加</button>
+      <div>
+        <a :href="currentLink" target="_blank" class="btn btn-primary">詳細リンク</a>
       </div>
     </div>
   </div>
 </template>
 
-<script setup>
-import { ref } from 'vue';
-
-const timeIndex = ref(0);
-const data = ref([]); // データの初期化
-const currentLink = ref(''); // 現在のリンク
-
-function updateLink() {
-  // スライダーのインデックスに基づいてリンクを更新
-  if (data.value[timeIndex.value]) {
-    currentLink.value = `https://example.com/details${timeIndex.value + 1}`; // リンクを更新
+<script>
+export default {
+  data() {
+    return {
+      currentIndex: 0, // 現在のインデックス
+      data: [
+        { image: '/juice1.jpg', link: 'https://example.com/1' },
+        { image: '/juice2.jpg', link: 'https://example.com/2' },
+        { image: '/juice3.jpg', link: 'https://example.com/3' },
+        { image: '/juice4.jpg', link: 'https://example.com/4' },
+        { image: '/juice5.jpg', link: 'https://example.com/5' },
+        { image: '/juice6.jpg', link: 'https://example.com/6' },
+      ],
+      displayedImages: [] // 表示された画像を格納する配列
+    };
+  },
+  computed: {
+    currentLink() {
+      // 表示された画像の最後のリンクを返す
+      if (this.displayedImages.length > 0) {
+        return this.displayedImages[this.displayedImages.length - 1].link;
+      }
+      return '#'; // 何も表示されていない場合のデフォルトリンク
+    }
+  },
+  methods: {
+    addImage() {
+      if (this.currentIndex < this.data.length) {
+        // データがまだ残っている場合、次の画像を追加
+        this.displayedImages.push(this.data[this.currentIndex]);
+        this.currentIndex++;
+      }
+    },
+    goBackImage() {
+      if (this.currentIndex > 0) {
+        // 戻る場合、最後の画像を削除し、インデックスを戻す
+        this.displayedImages.pop();
+        this.currentIndex--;
+      }
+    }
   }
-}
+};
 </script>
 
 <style scoped>
 img {
   width: 140%;
   height: 200%;
-  max-width: 150%
+  max-width: 150%;
+}
+
+.container {
+  width: 1300px;
+  height: 700px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #000;
+  overflow: auto;
+  cursor: move;
+}
+
+.img-fluid {
+  width: 2000px;
+  height: 1000px;
+  background-image: url('map-image.jpg');
+  background-size: cover;
+  position: absolute;
+  cursor: grab;
+}
+
+.container:hover .map {
+  cursor: grabbing;
 }
 
 .juice-img {
-  position: absolute; /* 絶対位置で配置 */
-  width: 20px; /* 小さくするためのサイズ調整 */
-  height: 20px; /* 高さを同じにして丸くする */
-  border-radius: 50%; /* 丸くするための設定 */
-  object-fit: cover; /* 画像が枠にフィットするように調整 */
-  border: 2px solid blue; /* 青い縁を追加 */
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid blue;
 }
 
 .juice-img1 {
-  left: 50%; /* 左から10% */
-  top: 50%; /* 上から10% */
-  transform: translate(-10%, -10%); /* 中心に配置するために移動 */
+  position: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid blue;
 }
 .juice-img2 {
-  left:55%; /* 左から15% */
-  top: 55%; /* 上から15% */
-  transform: translate(-10%, -10%); /* 中心に配置するために移動 */
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid blue;
 }
 .juice-img3 {
-  left: 50%; /* 左から10% */
-  top: 50%; /* 上から10% */
-  transform: translate(-10%, -10%); /* 中心に配置するために移動 */
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid blue;
+}
+.button-container {
+  margin-top: 20px;
+  text-align: center;
 }
 
-left: 50%; /* 左から10% */
-  top: 50%; /* 上から10% */
-  transform: translate(-10%, -10%); /* 中心に配置するために移動 */
+button {
+  margin: 0 10px;
+}
 </style>

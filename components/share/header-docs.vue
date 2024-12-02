@@ -26,21 +26,9 @@
                             </NavLink>
                         </NavItem>
                     </NavbarNavList>
-                    <NavbarNavList flex-direction="row" flex-wrap="wrap">
-                        <NavItem col="6 lg-auto">
-                            <NavLink to="https://usebootstrap.org/" target="_blank" padding="x-0 x-lg-2"  text-color="white">
-                                UseBootstrap
-                            </NavLink>
-                        </NavItem>
-                    </NavbarNavList>
+                    
                     <hr class="d-lg-none text-white-50">
                     <NavbarNavList flex-direction="row" flex-wrap="wrap" margin="s-md-auto">
-                        <NavItem col="6 lg-auto">
-                            <NavLink pdding="y-2 x-0 x-lg-2" to="https://github.com/simplise/use-bootstrap"
-                                target="_blank" rel="noopener">
-                                <Icon name="bi:github" class="navbar-nav-svg" />
-                            </NavLink>
-                        </NavItem>
                         <li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
                             <b-div display="none lg-flex" class="vr h-100 mx-lg-2 text-white" />
                             <hr class="d-lg-none my-2 text-white-50">
