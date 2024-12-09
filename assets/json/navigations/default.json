@@ -6,48 +6,48 @@
         "children": [
             {
                 "name": "ペンシルベニア州",
-                "path": "/"
+                "path": "/north-east/pa"
             },
             {
                 "name": "デラウェア州",
-                "path": "/lang-[lang]/localization"
+                "path": "/de"
             },
             {
                 "name": "メリーゴーランド州",
-                "path": "/"
+                "path": "/me"
             },
             {
                 "name": "ニュージャージー州",
-                "path": "/"
+                "path": "nj/"
             },
             {
                 "name": "ニューヨーク州",
-                "path": "/"
+                "path": "/ny"
             },
             {
                 "name": "コネカット州",
-                "path": "/"
+                "path": "/ct"
             },
             {
                 "name": "ロードアイランド州",
-                "path": "/docs"
+                "path": "/ri"
             },
 
             {
                 "name": "マサチューセッツ州",
-                "path": "/"
+                "path": "/ma"
             },
             {
                 "name": "バーモンド州",
-                "path": "/"
+                "path": "/va"
             },
             {
                 "name": "ニューハンプシャー州",
-                "path": "/"
+                "path": "/nh"
             },
             {
                 "name": "メイン州",
-                "path": "/"
+                "path": "/ma"
             }
         ]
     },
@@ -58,51 +58,51 @@
         "children": [
             {
                 "name": "アーカンソー州",
-                "path": "/"
+                "path": "/ar"
             },
             {
                 "name": "ルイジアナ州",
-                "path": "/"
+                "path": "/la"
             },
             {
                 "name": "ミシシッピ州",
-                "path": "/"
+                "path": "/ms"
             },
             {
                 "name": "ケンタッキー州",
-                "path": "/"
+                "path": "/ky"
             },
             {
                 "name": "テネシー州",
-                "path": "/"
+                "path": "/tn"
             },
             {
                 "name": "アラバマ州",
-                "path": "/"
+                "path": "/al"
             },
             {
                 "name": "ジョージア州",
-                "path": "/docs"
+                "path": "/ga"
             },
             {
                 "name": "フロリダ州",
-                "path": "/docs"
+                "path": "/fl"
             },
             {
                 "name": "サウスカロライナ州",
-                "path": "/docs"
+                "path": "/sc"
             },
             {
                 "name": "ノースカロライナ州",
-                "path": "/docs"
+                "path": "/nc"
             },
             {
                 "name": "ウェストバージニア州",
-                "path": "/docs"
+                "path": "/wv"
             },
             {
                 "name": "バージニア州",
-                "path": "/docs"
+                "path": "/va"
             }
         ]
     },
@@ -113,19 +113,19 @@
         "children": [
             {
                 "name": "アリゾナ州",
-                "path": "/do"
+                "path": "/az"
             },
             {
                 "name": "ニューメキシコ州",
-                "path": "/lang-[lang]/localization"
+                "path": "/nm"
             },
             {
                 "name": "テキサス州",
-                "path": "/do"
+                "path": "/tx"
             },
             {
                 "name": "オクラホマ州",
-                "path": "/do"
+                "path": "/ok"
             }
         ]
     },
@@ -136,51 +136,51 @@
         "children": [
             {
                 "name": "ノースダコタ州",
-                "path": "/do"
+                "path": "/nd"
             },
             {
                 "name": "サウスダコタ州",
-                "path": "/lang-[lang]/localization"
+                "path": "/sd"
             },
             {
                 "name": "ミネソタ州",
-                "path": "/do"
+                "path": "/mn"
             },
             {
                 "name": "アイオワ州",
-                "path": "/do"
+                "path": "/ia"
             },
             {
                 "name": "ミズーリ州",
-                "path": "/do"
+                "path": "/mo"
             },
             {
                 "name": "ネブラスカ州",
-                "path": "/do"
+                "path": "/ne"
             },
             {
                 "name": "カンザス州",
-                "path": "/do"
+                "path": "/ks"
             },
             {
                 "name": "ウィスコンシン州",
-                "path": "/do"
+                "path": "/wi"
             },
             {
                 "name": "ミシガン州",
-                "path": "/do"
+                "path": "/mi"
             },
             {
                 "name": "イリノイ州",
-                "path": "/do"
+                "path": "/il"
             },
             {
                 "name": "インディアナ州",
-                "path": "/do"
+                "path": "/in"
             },
             {
                 "name": "オハイオ州",
-                "path": "/do"
+                "path": "/oh"
             }
 
         ]
@@ -192,43 +192,43 @@
         "children": [
             {
                 "name": "ワシントン州",
-                "path": "/do"
+                "path": "/wa"
             },
             {
                 "name": "オレゴン州",
-                "path": "/do"
+                "path": "/or"
             },
             {
                 "name": "カリフォルニア州",
-                "path": "/do"
+                "path": "/ca"
             },
             {
                 "name": "ネバダ州",
-                "path": "/do"
+                "path": "/nv"
             },
             {
                 "name": "アイダホ州",
-                "path": "/do"
+                "path": "/id"
             },
             {
                 "name": "モンタナ州",
-                "path": "/do"
+                "path": "/mt"
             },
             {
                 "name": "ワイオミング州",
-                "path": "/do"
+                "path": "/wy"
             },
             {
                 "name": "コロラド州",
-                "path": "/do"
+                "path": "/co"
             },
             {
                 "name": "ユタ州",
-                "path": "/do"
+                "path": "/ut"
             },
             {
                 "name": "アラスカ州",
-                "path": "/do"
+                "path": "/ak"
             }
         ]
     }
