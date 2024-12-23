@@ -79,7 +79,7 @@ img {
 }
 
 .container {
-  width: 1300px;
+  width: 900px;
   height: 700px;
   overflow: hidden;
   position: relative;
