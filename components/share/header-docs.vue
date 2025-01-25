@@ -5,7 +5,7 @@
                 <NavbarToggler target="#sidebar" icon="bi:list" padding="2" />
             </b-div>
             <NavbarBrand to="/" padding="0" margin="0 e-2 s-md-3 s-xl-0">
-                <img src="~/public/img/rap-img.png" alt="use-bootstrap" height="30">
+                <img src="~/public/img/usaicon.png" alt="use-bootstrap" height="30">
             </NavbarBrand>
             <b-div flex>
                 <NavbarToggler icon="bi:three-dots" flex display="lg-none" order="3" padding="2" target="#navbar" />
@@ -22,7 +22,7 @@
                     <NavbarNavList flex-direction="row" flex-wrap="wrap">
                         <NavItem col="6 lg-auto">
                             <NavLink to="/" padding="x-0 x-lg-2"  text-color="white">
-                                Landing
+                                USA
                             </NavLink>
                         </NavItem>
                     </NavbarNavList>

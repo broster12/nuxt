@@ -10,9 +10,11 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "leaflet": "^1.9.4",
     "sass": "1.77.6",
     "usebootstrap": "^3.5.61",
-    "vue": "latest"
+    "vue": "latest",
+    "vue-router": "^4.5.0"
   },
   "devDependencies": {
     "nuxt": "^3.13.0"
