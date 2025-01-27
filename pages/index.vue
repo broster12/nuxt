@@ -1,11 +1,6 @@
 <template>
-<<<<<<< Updated upstream
   <div>
-<<<<<<< HEAD
-    <h1 class="いぶき">test</h1>
-=======
     <h1 class="text">ブロスタ</h1>
->>>>>>> 63fe5fc3f690b6b0273834081efb4996f46b3829
   
     <div class="container">
 
@@ -115,10 +110,6 @@ export default {
 };
 </script>
 
-=======
-    <h1 class="text">ブロスタサークル</h1>
-    <h2>～ブロスタサークルについて～</h2>
->>>>>>> Stashed changes
 <style scoped>
 .text{
   margin-left: 25rem;
