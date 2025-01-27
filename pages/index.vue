@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text">test</h1>
+    <h1 class="text">ブロスタ</h1>
   
     <div class="container">
 
