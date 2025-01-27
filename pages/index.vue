@@ -8,10 +8,10 @@
   
     <div class="container">
 
-    <router-link to="/wa" class="wa">WA</router-link>
+    <router-link to="/wa" class="wa">Wa</router-link>
     <router-link to="/or" class="or">OR</router-link>
     <router-link to="/ca" class="ca">CA</router-link>
-    <!-- 他の州も同様に追加 -->
+    <!-- 他の州も同様に追加るいるい -->
     
 <router-link to="/nv" class="nv">NV</router-link>
 <router-link to="/ut" class="ut">UT</router-link>
