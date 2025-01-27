@@ -1,6 +1,10 @@
 <template>
   <div>
+<<<<<<< HEAD
     <h1 class="いぶき">test</h1>
+=======
+    <h1 class="text">ブロスタ</h1>
+>>>>>>> 63fe5fc3f690b6b0273834081efb4996f46b3829
   
     <div class="container">
 
